@@ -51,18 +51,29 @@ The trained models were evaluated based on the **Confusion Matrix**, **Precision
 
 *> Note: Prediction operations performed with the TESS dataset confirmed the high success rate and generalization ability of the MLP model.*
 
-### 1. MLP Classifier Results
-**Confusion Matrix:**
-![MLP Matrix](Imgs/confmMLP.png)
+ ## Classifier Results
+ 
+ <h3>MLP Model Results</h3>
+<table>
+  <tr>
+    <td align="center"><b>Confusion Matrix</b></td>
+    <td align="center"><b>Classification Report</b></td>
+  </tr>
+  <tr>
+    <td><img src="Imgs/confmMLP.png" width="400" height="400"></td>
+    <td><img src="Imgs/MLPclassification.png" width="500" height="300"></td>
+  </tr>
+</table>
 
-**Classification Metrics:**
-![MLP Metrics](Imgs/MLPclassification.png)
+ <h3>RF Model Results</h3>
+<table>
+  <tr>
+    <td align="center"><b>Confusion Matrix</b></td>
+    <td align="center"><b>Classification Report</b></td>
+  </tr>
+  <tr>
+    <td><img src="Imgs/confmRF.png" width="400" height="400"></td>
+    <td><img src="Imgs/RFclassification.png" width="500" height="300"></td>
+  </tr>
+</table>
 
----
-
-### 2. RF Classifier Results
-**Confusion Matrix:**
-![RF Matrix](Imgs/confmRF.png)
-
-**Classification Metrics:**
-![RF Metrics](Imgs/RFclassification.png)
