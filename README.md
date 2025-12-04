@@ -62,8 +62,8 @@ The trained models were evaluated based on the **Confusion Matrix**, **Precision
     <td align="center"><b>RF Model (2nd Best)</b></td>
   </tr>
   <tr>
-    <td><img src="images/Imgs/confmMLP.png" width="400" height="400"></td>
-    <td><img src="images/Imgs/confmRF.png" width="400"></td>
+    <td><img src="Imgs/confmMLP.png" width="400" height="400"></td>
+    <td><img src="Imgs/confmRF.png" width="400"></td>
   </tr>
   <tr>
     <td align="center"><i>High precision in detecting 'Happy' and 'Sad' emotions.</i></td>
