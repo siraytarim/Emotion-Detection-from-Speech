@@ -46,7 +46,7 @@ The trained models were evaluated based on the **Confusion Matrix**, **Precision
 | Model | Best Accuracy Rate |
 | :--- | :--- |
 | **MLP (Multi-Layer Perceptron)** | **93.3%** 🌟 |
-| Random Forest | *XX.X%* |
+| Random Forest | *90.32%* |
 | SVM (Support Vector Machine) | *99%(Overfitting)* |
 
 *> Note: Prediction operations performed with the TESS dataset confirmed the high success rate and generalization ability of the MLP model.*
