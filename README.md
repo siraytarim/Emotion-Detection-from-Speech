@@ -51,22 +51,18 @@ The trained models were evaluated based on the **Confusion Matrix**, **Precision
 
 *> Note: Prediction operations performed with the TESS dataset confirmed the high success rate and generalization ability of the MLP model.*
 
-<h3>Model Performance Visualizations</h3>
-<p align="center">
-  The confusion matrices below illustrate the classification performance of the top two models.
-</p>
+### 1. MLP Classifier Results
+**Confusion Matrix:**
+![MLP Matrix](Imgs/confmMLP.png)
 
-<table>
-  <tr>
-    <td align="center"><b>MLP Model (Best - 93.3%)</b></td>
-    <td align="center"><b>RF Model (2nd Best)</b></td>
-  </tr>
-  <tr>
-    <td><img src="Imgs/confmMLP.png" width="400" height="400"></td>
-    <td><img src="Imgs/confmRF.png" width="400"></td>
-  </tr>
-  <tr>
-    <td align="center"><i>High precision in detecting 'Happy' and 'Sad' emotions.</i></td>
-    <td align="center"><i>Shows slight confusion between 'Fear' and 'Surprise'.</i></td>
-  </tr>
-</table>
+**Classification Metrics:**
+![MLP Metrics](Imgs/MLPclassification.png)
+
+---
+
+### 2. RF Classifier Results
+**Confusion Matrix:**
+![RF Matrix](Imgs/confmRF.png)
+
+**Classification Metrics:**
+![RF Metrics](Imgs/RFclassification.png)
