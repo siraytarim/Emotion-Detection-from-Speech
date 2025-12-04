@@ -10,7 +10,6 @@ The highest performance was achieved using the **MLP (Multi-Layer Perceptron)** 
 - [Methodology & Feature Extraction](#-methodology--feature-extraction)
 - [Models Used](#-models-used)
 - [Results & Performance](#-results--performance)
-- [Installation & Usage](#-installation--usage)
 
 ## 💡 About the Project
 Emotion recognition systems play a critical role in various technological fields today, such as customer service (call centers), recommendation systems, and user experience enhancement. The primary goal of this study is to classify emotional tones from raw audio data with high accuracy.
